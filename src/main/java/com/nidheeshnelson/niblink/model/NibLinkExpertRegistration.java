@@ -266,4 +266,17 @@ public String getSecret() {
 public void setSecret(String secret) {
 	this.secret = secret;
 }
+@Override
+public String toString() {
+	return "NibLinkExpertRegistration [id=" + id + ", name=" + name + ", dob=" + dob + ", email=" + email + ", phone="
+			+ phone + ", gender=" + gender + ", education=" + education + ", adhar=" + adhar + ", pan=" + pan + ", dl="
+			+ dl + ", user=" + user + ", pass=" + pass + ", passc=" + passc + ", addresstype=" + addresstype
+			+ ", place=" + place + ", state=" + state + ", district=" + district + ", thaluk=" + thaluk + ", local="
+			+ local + ", father=" + father + ", mother=" + mother + ", merital=" + merital + ", spouse=" + spouse
+			+ ", children=" + children + ", religion=" + religion + ", mode=" + mode + ", field=" + field + ", pin="
+			+ pin + ", distance=" + distance + ", payment=" + payment + ", commission=" + commission + ", bank=" + bank
+			+ ", branch=" + branch + ", ifsc=" + ifsc + ", account=" + account + ", accountc=" + accountc + ", secret="
+			+ secret + "]";
+}
+
 }

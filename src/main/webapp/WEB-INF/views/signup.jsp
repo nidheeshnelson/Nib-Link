@@ -31,7 +31,7 @@
                 <div class="slider-tab"></div>
               </div>
               <div class="form-inner">
-                <form action="#" method="" class="login">
+                <form action="/logaccount" method="post" class="login">
                   <div class="field">
                     <input type="text" name="user" placeholder="user name" required>
                   </div>

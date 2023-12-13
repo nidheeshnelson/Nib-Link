@@ -10,7 +10,8 @@ import com.nidheeshnelson.niblink.repository.NibLinkExpertRegistrationRepo;
 public class NibLinkExpertRegistrationService {
 	@Autowired
 private NibLinkExpertRegistrationRepo reg;
-public void saveReg(NibLinkExpertRegistration exreg) {
-	reg.save(exreg);
+public NibLinkExpertRegistration saveReg(NibLinkExpertRegistration exreg) {
+	return reg.save(exreg);
+	
 }
 }

@@ -21,9 +21,9 @@ String register(Model m) {
 	return "registration";
 }
 @PostMapping("/register")
-String getReg(@ModelAttribute NibLinkExpertRegistration expreg) {
+String getReg(@ModelAttribute("forreg") NibLinkExpertRegistration expreg) {
 	System.out.println("in register");
-	regser.saveReg(expreg);
-	return "home";
+	System.out.println(regser.saveReg(expreg));
+	return "popupregister";
 }
 }
