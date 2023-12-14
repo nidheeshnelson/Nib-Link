@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1" isELIgnored="false"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +15,7 @@
             <img src="Images/hand-thumbs-up.svg" alt="">
             <h2>Thank You!</h2>
             <p>Your request for joining as a NibLink Expert has been successfully submitted.</p>
-            <p>Your registration id is </p>
+            <p>Your registration id is ${id}</p>
             <a href="/log"><button type="submit" >OK</button></a>
         </div>
     </div>

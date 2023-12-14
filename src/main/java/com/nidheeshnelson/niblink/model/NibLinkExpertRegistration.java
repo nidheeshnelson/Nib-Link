@@ -50,6 +50,9 @@ private String ifsc;
 private String account;
 private String accountc;
 private String secret;
+public int getId() {
+	return id;
+}
 public String getName() {
 	return name;
 }

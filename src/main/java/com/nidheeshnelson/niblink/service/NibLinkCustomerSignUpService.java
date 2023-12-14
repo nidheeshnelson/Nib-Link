@@ -10,7 +10,7 @@ import com.nidheeshnelson.niblink.repository.NibLinkCustomerSignUpRepo;
 public class NibLinkCustomerSignUpService {
 	@Autowired
 private NibLinkCustomerSignUpRepo csur;
-	public void signUp(NibLinkCustomerSignUp su) {
-		csur.save(su);
+	public NibLinkCustomerSignUp signUp(NibLinkCustomerSignUp su) {
+		return csur.save(su);
 	}
 }

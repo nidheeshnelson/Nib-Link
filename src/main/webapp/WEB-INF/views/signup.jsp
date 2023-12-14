@@ -13,7 +13,7 @@
         <nav>
             <div class="logo">N<span>i</span>B<span>-</span>L<span>i</span>nk</div>
             <div>
-            <button><a href="Home.html">Home</a></button>
+            <button><a href="/">Home</a></button>
         </div>
         </nav>
 
@@ -46,7 +46,7 @@
                   <div class="signup-link">Not a member? <a href="">Signup now</a></div>
                   <div class="signup-link">An expert not joined yet? <a href="">Register now</a></div>
                 </form>
-                <form action="#" method="" class="signup">
+                <form action="/customer" method="post" class="signup">
                   <div class="field">
                     <input type="text" name="email" placeholder="Email Address" required>
                   </div>

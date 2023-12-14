@@ -24,7 +24,7 @@ private NibLinkLoginService ls;
 	}
 	@PostMapping("/logaccount")
 	String accoount(@ModelAttribute("loging") NibLinkLogin lo) {
-		
+		System.out.println("in Login account");
 		
 		return "";
 	}
